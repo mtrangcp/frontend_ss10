@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 1100px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+.container .nav .logo {
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blue;
+}
+
+.container .nav .logo img {
+    width: 20px;
+    height: 20px;
+}
+
+.container .nav{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    margin-bottom: 20px;
+}
+
+.container .nav ul{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container .nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.container .nav ul li a:hover{
+    color: blue;
+}
+
+.container .main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    gap: 20px;
+}
+
+.container .main .info{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.container .main .info img{
+    width: 100%;
+    height: fit-content;
+}
+
+.container .main .info h3{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    background-color: white;
+    padding: 6px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.container .main .info p{
+    margin-top: 10px;
+    padding: 7px;
+}
+
+.container .main .content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.main .content .story{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.main .content .story h4{
+    background-color: yellow;
+    width: fit-content;
+    padding: 5px 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.main .content .story p{
+    font-size: 13px;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    padding-bottom: 10px;
+}
+
+.content .story p:last-child{
+    border-bottom: none;
+}
+
+.main .content .bites{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.content .bites .bites-top{
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.content .bites .bites-top h4{
+    background-color: yellow;
+    width: fit-content;
+    padding: 5px 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.content .bites .bites-top h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0 20px;
+}
+.content .bites .bites-top p{
+    font-size: 14px;
+    margin: 0 20px;
+}
+.content .bites .bites-top .next{
+    color: blue;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content .bites .bites-btm{
+    margin: 12px 0;
+}
+
+.content .bites .bites-btm h4{
+    color: rgb(83, 83, 255);
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+.content .bites .bites-btm h4:hover{
+    color: rgb(109, 0, 211);
+}
+
+.bites .bites-btm form input{
+    border: none;
+    font-size: 13px;
+    flex: 1;
+}
+
+.bites .bites-btm form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bites .bites-btm form button{
+    border: none;
+    background-color: rgb(75, 159, 255);
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.bites-btm form button:hover{
+    background-color: rgb(0, 0, 105);
+}
+
+
+
+
+
